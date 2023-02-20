@@ -1,0 +1,29 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 2%, rgba(252,176,69,1) 100%);
+  padding: clamp(20px, 20vw, 200px) 20px 0;
+}
+
+h1, .score {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0 50px;
+    color: #F1F1F1;
+}
+
+canvas {
+    background: #F1F1F1;
+    display: block;
+    margin: 0 auto;
+}
+
